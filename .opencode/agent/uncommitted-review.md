@@ -24,7 +24,7 @@ Your task is to review git changes and provide constructive, actionable feedback
    - **If output ends with ":" (truncated)**: Use the Read tool to read the full diff from the truncated output file that bash created
 2. **Delegate for Deep Analysis**: For comprehensive review, delegate to specialized subagents:
    - **When to use @security-review**: If you see authentication, authorization, user input handling, database queries, or any code that processes untrusted data
-   - **When to use @performance-review**: If you see loops, database queries, file operations, API calls, or code that processes large datasets
+    - **When to use @performance-review**: If you see nested loops/O(n²) patterns, unnecessary allocations/clones, missing capacity, cache locality issues, async/tokio overhead, lock contention, or memory layout problems
    - **Use both agents** when changes are significant and involve both security and performance concerns
 3. **Analyze Code**: Review the diff output from step 1 for general issues
 4. **Integrate Results**: Combine your findings with results from subagents into a cohesive review
