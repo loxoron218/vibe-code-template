@@ -93,8 +93,8 @@ cargo bench         # Run benchmarks
 
 **Rules:**
 - NEVER leak `anyhow::Error` across library boundaries
-- NEVER use `unwrap()`, return errors with context instead
-- NEVER use `println!`, `eprintln!`, or `dbg!` for output - ALWAYS use `tracing`
+- NEVER use `let _`, `.unwrap()`, `.expect()` or `.ok()`, return errors with context instead
+- NEVER use `println!`, `eprintln!`, or `dbg!` for output - ALWAYS use structured `tracing` with fields (e.g., `error!(error = %err, "Audio stream error")`, `info!(message = %err_str, "Audio buffer size changed")`)
 - Document error types with summary comment
 - Document each variant/field with `///`
 
