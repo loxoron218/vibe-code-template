@@ -163,7 +163,7 @@ pub async fn load_track<P: AsRef<Path>>(&self, track_path: P) -> Result<(), Audi
 - NEVER hardcode radii; use semantic classes (`.card`, `.boxed-list`) for corner rounding
 - Use `adw::StatusPage` for empty states and `adw::Toast` for non-intrusive feedback
 - Apply "suggested-action" or "destructive-action" CSS classes to primary/dangerous buttons
-- Organize settings using `adw::PreferencesDialog` containing `adw::PreferencesPage`, `adw::PreferencesGroup`
+- Organize settings using `adw::PreferencesDialog` containing `adw::PreferencesPage` and `adw::PreferencesGroup`
 
 ## Mandatory Behaviors
 
