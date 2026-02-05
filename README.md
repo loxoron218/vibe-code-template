@@ -36,7 +36,8 @@ This script will:
 Additional documentation is available in the `docs/` directory:
 
 - **docs/AGENTS.md**: Detailed descriptions of all available review agents and their capabilities
-- **docs/information.md**: General project information and setup details
+- **docs/CLAUDE.md**: Claude AI integration documentation
+- **docs/skills/**: Development skill documentation and patterns
 
 ## Spec-Kit Slash Commands
 
@@ -80,16 +81,19 @@ The template includes pre-configured Rust development tools:
 │   │   ├── security-review.md            # Security-focused code review
 │   │   └── uncommitted-review.md         # General code quality review
 │   ├── skills/                           # Development skills and patterns
-│   │   ├── gtk-ui-ux-engineer.md         # GTK/libadwaita UI/UX best practices
-│   │   ├── performance-optimization.md   # Performance optimization techniques
-│   │   ├── senior-rust-practices.md      # Modern Rust patterns and practices
 │   │   └── sql-optimization-patterns.md  # SQL query optimization
 │   └── opencode.json                     # Main opencode configuration
 ├── AGENTS.md                             # Agent configuration documentation
 ├── clippy.toml                           # Rust linter configuration
 ├── docs/                                 # Additional documentation
 │   ├── AGENTS.md                         # Detailed agent documentation
-│   └── information.md                    # Project information
+│   ├── CLAUDE.md                         # Claude AI documentation
+│   └── skills/                           # Development skill documentation
+│       ├── frontend-design.md            # Frontend design patterns
+│       ├── gtk-ui-ux-engineer.md        # GTK/libadwaita UI/UX best practices
+│       ├── performance-optimization.md  # Performance optimization techniques
+│       ├── senior-rust-practices.md     # Modern Rust patterns and practices
+│       └── skill-creator.md             # Skill creation guidelines
 ├── LICENSE                               # Project license
 ├── README.md                             # This file
 ├── rustfmt.toml                          # Rust formatter configuration
