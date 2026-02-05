@@ -26,9 +26,6 @@ This script will:
   - `security-review`: Identifies security vulnerabilities and best practice violations
   - `uncommitted-review`: General code quality review with focus on maintainability
 - **Development Skills**:
-  - `gtk-ui-ux-engineer`: GNOME Human Interface Guidelines and libadwaita patterns
-  - `performance-optimization`: High-performance coding techniques and patterns
-  - `senior-rust-practices`: Modern idiomatic Rust, error handling, and testing
   - `sql-optimization-patterns`: Database query optimization strategies
 
 ## Documentation
@@ -75,29 +72,30 @@ The template includes pre-configured Rust development tools:
 
 ```
 .
-├── .opencode/                            # opencode AI assistant configuration
-│   ├── agent/                            # Specialized review agents
-│   │   ├── performance-review.md         # Performance-focused code review
-│   │   ├── security-review.md            # Security-focused code review
-│   │   └── uncommitted-review.md         # General code quality review
-│   ├── skills/                           # Development skills and patterns
-│   │   └── sql-optimization-patterns.md  # SQL query optimization
-│   └── opencode.json                     # Main opencode configuration
-├── AGENTS.md                             # Agent configuration documentation
-├── clippy.toml                           # Rust linter configuration
-├── docs/                                 # Additional documentation
-│   ├── AGENTS.md                         # Detailed agent documentation
-│   ├── CLAUDE.md                         # Claude AI documentation
-│   └── skills/                           # Development skill documentation
-│       ├── frontend-design.md            # Frontend design patterns
-│       ├── gtk-ui-ux-engineer.md        # GTK/libadwaita UI/UX best practices
-│       ├── performance-optimization.md  # Performance optimization techniques
-│       ├── senior-rust-practices.md     # Modern Rust patterns and practices
-│       └── skill-creator.md             # Skill creation guidelines
-├── LICENSE                               # Project license
-├── README.md                             # This file
-├── rustfmt.toml                          # Rust formatter configuration
-└── start.sh                              # Setup script
+├── .opencode/                                        # opencode AI assistant configuration
+│   ├── agent/                                        # Specialized review agents
+│   │   ├── performance-review.md                     # Performance-focused code review
+│   │   ├── security-review.md                        # Security-focused code review
+│   │   └── uncommitted-review.md                     # General code quality review
+│   ├── skills/                                       # Development skills and patterns
+│   │   └── sql-optimization-patterns/
+│   │       └── sql-optimization-patterns.md          # SQL query optimization
+│   └── opencode.json                                 # Main opencode configuration
+├── AGENTS.md                                         # Agent configuration documentation
+├── clippy.toml                                       # Rust linter configuration
+├── docs/                                             # Additional documentation
+│   ├── AGENTS.md                                     # Detailed agent documentation
+│   ├── CLAUDE.md                                     # Claude AI documentation
+│   └── skills/                                       # Development skill documentation
+│       ├── frontend-design.md                        # Frontend design patterns
+│       ├── gtk-ui-ux-engineer.md                     # GTK/libadwaita UI/UX best practices
+│       ├── performance-optimization.md               # Performance optimization techniques
+│       ├── senior-rust-practices.md                  # Modern Rust patterns and practices
+│       └── skill-creator.md                          # Skill creation guidelines
+├── LICENSE                                           # Project license
+├── README.md                                         # This file
+├── rustfmt.toml                                      # Rust formatter configuration
+└── start.sh                                          # Setup script
 ```
 
 ## License
