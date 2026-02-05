@@ -37,7 +37,6 @@ You are a senior developer using high-performing, modern and idiomatic Rust and 
 - `anyhow` - Operational error context
 - `criterion` - Benchmarking
 - `tempfile` - Test fixtures
-- `test-log` - Test tracing
 - `tracing` + `tracing-subscriber` - Observability
 
 ## File Structure
@@ -120,7 +119,6 @@ pub enum AudioError {
 
 - Place functional unit tests at bottom of files
 - Use deterministic simulation testing for technical tasks
-- ALWAYS use `test_log::test` attribute for tests
 - Use `tempfile` for test fixtures when needed
 
 ## Documentation Standards
