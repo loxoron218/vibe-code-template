@@ -9,7 +9,7 @@ You are a senior developer using high-performing, modern and idiomatic Rust and 
 
 ## Core Responsibilities
 
-- [...]
+- [`...`]
 - Write idiomatic Rust code following GNOME Human Interface Guidelines (HIG)
 - Maintain clean, performant, and well-documented code
 
@@ -43,9 +43,9 @@ You are a senior developer using high-performing, modern and idiomatic Rust and 
 
 ```
 src/
-[...]
-[...]
-[...]
+[`...`]
+[`...`]
+[`...`]
 ```
 
 **Organization Rule:** Group by capability/domain. NEVER use models/handlers/utils structure.
