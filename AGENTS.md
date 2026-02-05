@@ -154,16 +154,16 @@ pub async fn load_track<P: AsRef<Path>>(&self, track_path: P) -> Result<(), Audi
 ```
 
 ## GNOME Human Interface Guidelines
-- Use `adw::ApplicationWindow` and `adw::HeaderBar` for standard system chrome and controls
-- Implement adaptive layouts using `adw::Breakpoint` for mobile/desktop parity
-- Provide accessible labels via `set_tooltip_text` and `set_accessible_role` for all icons/buttons
-- Prioritize mnemonics (`set_use_underline(true)`) to ensure keyboard navigability
-- Default to system-standard 250ms animations
-- Adhere to the 6px spacing scale (6/12/18/24/30px) for all margins and padding
-- NEVER hardcode radii; use semantic classes (`.card`, `.boxed-list`) for corner rounding
-- Use `adw::StatusPage` for empty states and `adw::Toast` for non-intrusive feedback
-- Apply "suggested-action" or "destructive-action" CSS classes to primary/dangerous buttons
-- Organize settings using `adw::PreferencesDialog` containing `adw::PreferencesPage` and `adw::PreferencesGroup`
+- Use `adw::ApplicationWindow` and `adw::HeaderBar` for standard system chrome; commit to cohesive visual hierarchy
+- Implement adaptive layouts using `adw::Breakpoint`; ensure mobile/desktop parity with intentional widget choices
+- Provide accessible labels via `set_tooltip_text` and `set_accessible_role`; craft clear, purposeful microcopy
+- Prioritize mnemonics (`set_use_underline(true)`) for keyboard navigation; make every interaction discoverable
+- Default to 250ms animations; use motion deliberately to guide attention, not decorate
+- Adhere to the 6px spacing scale (6/12/18/24/30px); create breathing room with intentional rhythm
+- NEVER hardcode radii; use semantic classes (`.card`, `.boxed-list`) for consistent, language-native rounding
+- Use `adw::StatusPage` for empty states; write specific, contextual messages with distinct character
+- Use `adw::Toast` for non-intrusive feedback; apply "suggested-action" or "destructive-action" with clear intent
+- Organize settings using `adw::PreferencesDialog` containing `adw::PreferencesPage` and `adw::PreferencesGroup`; group logically
 
 ## Mandatory Behaviors
 
