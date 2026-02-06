@@ -21,14 +21,6 @@
             "high": { "thinkingLevel": "high" }
           }
         },
-        "antigravity-gemini-3-flash": {
-          "name": "Gemini 3 Flash (Antigravity)",
-          "limit": { "context": 1048576, "output": 65536 },
-          "modalities": { "input": ["text", "image", "pdf"], "output": ["text"] },
-          "variants": {
-            "high": { "thinkingLevel": "high" }
-          }
-        },
         "antigravity-claude-opus-4-5-thinking": {
           "name": "Claude Opus 4.5 Thinking (Antigravity)",
           "limit": { "context": 200000, "output": 64000 },
