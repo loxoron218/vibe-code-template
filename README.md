@@ -26,7 +26,14 @@ This script will:
   - `security-review`: Identifies security vulnerabilities and best practice violations
   - `uncommitted-review`: General code quality review with focus on maintainability
 - **Development Skills**:
+  - `code-review-excellence`: Code review best practices and guidelines
+  - `karpathy-guidelines`: Behavioral guidelines to reduce common LLM coding mistakes
   - `sql-optimization-patterns`: Database query optimization strategies
+  - `frontend-design`: Create distinctive, production-grade frontend interfaces
+  - `gtk-ui-ux-engineer`: GTK/libadwaita UI/UX specialist for Linux desktop applications
+  - `performance-optimization`: Systematic performance optimization techniques for Python and Rust
+  - `senior-rust-practices`: Senior-level Rust development patterns and workspace design
+  - `skill-creator`: Guide for creating effective skills that extend Claude's capabilities
 
 ## Documentation
 
@@ -78,20 +85,29 @@ The template includes pre-configured Rust development tools:
 │   │   ├── security-review.md                        # Security-focused code review
 │   │   └── uncommitted-review.md                     # General code quality review
 │   ├── skills/                                       # Development skills and patterns
+│   │   ├── code-review-excellence/
+│   │   │   └── SKILL.md                              # Code review best practices
+│   │   ├── karpathy-guidelines/
+│   │   │   └── SKILL.md                              # Behavioral guidelines to reduce coding mistakes
 │   │   └── sql-optimization-patterns/
-│   │       └── sql-optimization-patterns.md          # SQL query optimization
+│   │       └── SKILL.md                              # SQL query optimization
 │   └── opencode.json                                 # Main opencode configuration
-├── AGENTS.md                                         # Agent configuration documentation
+├── AGENTS.md                                         # Detailed descriptions of all available review agents
 ├── clippy.toml                                       # Rust linter configuration
 ├── docs/                                             # Additional documentation
-│   ├── AGENTS.md                                     # Detailed agent documentation
-│   ├── CLAUDE.md                                     # Claude AI documentation
+│   ├── AGENTS.md                                     # Agent configuration documentation
+│   ├── CLAUDE.md                                     # Claude AI integration documentation
 │   └── skills/                                       # Development skill documentation
-│       ├── frontend-design.md                        # Frontend design patterns
-│       ├── gtk-ui-ux-engineer.md                     # GTK/libadwaita UI/UX best practices
-│       ├── performance-optimization.md               # Performance optimization techniques
-│       ├── senior-rust-practices.md                  # Modern Rust patterns and practices
-│       └── skill-creator.md                          # Skill creation guidelines
+│       ├── frontend-design/
+│       │   └── SKILL.md                              # Frontend design patterns
+│       ├── gtk-ui-ux-engineer/
+│       │   └── SKILL.md                              # GTK/libadwaita UI/UX best practices
+│       ├── performance-optimization/
+│       │   └── SKILL.md                              # Performance optimization techniques
+│       ├── senior-rust-practices/
+│       │   └── SKILL.md                              # Modern Rust patterns and practices
+│       └── skill-creator/
+│           └── SKILL.md                              # Skill creation guidelines
 ├── LICENSE                                           # Project license
 ├── README.md                                         # This file
 ├── rustfmt.toml                                      # Rust formatter configuration
